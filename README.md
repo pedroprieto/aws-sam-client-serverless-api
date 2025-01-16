@@ -91,4 +91,4 @@ La URL del sitio web estático será `http://MINOMBREDEBUCKET.s3-website.REGION.
 
 ## Borrado de recursos
 - Borrar el contenido del bucket y el bucket
-- Ejecutar `sam delete` para borrar las funciones, API, y tabla de base de datos
+- Ejecutar `sam delete` para borrar las funciones, API y tabla de base de datos

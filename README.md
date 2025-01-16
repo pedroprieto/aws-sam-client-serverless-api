@@ -25,7 +25,7 @@ Globals:
       AllowOrigin: "'*'"
 ```
 
-Modificar también el mismo fichero para añadir un rol para cada una de las __3 funciones Lambda__ creadas. Previamente hay que ir al servicio `IAM` y buscar el `ARN` del rol llamado `LabRole`. Una vez copiado el ARN de dicho rol, hay que añadir la siguiente configuración para cada una de las 3 funciones, respetando los tabuladores. Quedará algo así:
+En el caso de lanzar esta aplicación en un __laboratorio de AWS Academy__, modificar también el mismo fichero para añadir un rol para cada una de las __3 funciones Lambda__ creadas. Previamente hay que ir al servicio `IAM` y buscar el `ARN` del rol llamado `LabRole`. Una vez copiado el ARN de dicho rol, hay que añadir la siguiente configuración para cada una de las 3 funciones, respetando los tabuladores. Quedará algo así:
 ```yaml
 Role: arn:aws:iam::XXXXXXXXXXXX:role/LabRole
 ```
